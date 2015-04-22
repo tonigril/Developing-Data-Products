@@ -1,0 +1,25 @@
+---
+title: "About"
+author: "Toni Gril"
+#date: "22. april 2015"
+output: html_document
+---
+The application is based on proprietary survey data of 1.900 beer drinkers in Slovenia so I can't disclose the labels. 
+*I hope that you'll not find this inconvenient.*
+
+The application reads the Random Forest model and predicts to what segment "new" respondent falls based on user input.
+
+The application gives the membership probability for each of the segments.
+
+How to use it:
+
+In the application you provide some basic information about new respondent:
+
+- select the **gender**
+- select the **age**
+- select the **number of brands respondent knows about**
+- select the **frequency of purchase**
+- select the **frequency of visiting pubs**
+- select the **number of brands respondent buys for household**
+- select the **number of brands respondent buys in pubs**
+- you also check **which brands respondent buys**
